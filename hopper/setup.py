@@ -29,7 +29,7 @@ with open("../README.md", "r", encoding="utf-8") as fh:
 # ninja build does not work unless include_dirs are abs path
 this_dir = os.path.dirname(os.path.abspath(__file__))
 
-PACKAGE_NAME = "flashattn-hopper"
+PACKAGE_NAME = "flex_fa_3"
 
 BASE_WHEEL_URL = "https://github.com/Dao-AILab/flash-attention/releases/download/{tag_name}/{wheel_name}"
 
@@ -283,7 +283,7 @@ setup(
             "benchmarks",
         )
     ),
-    py_modules=["flash_attn_interface"],
+    py_modules=["flex_fa_interface"],
     description="FlashAttention-3",
     long_description=long_description,
     long_description_content_type="text/markdown",
