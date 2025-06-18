@@ -1,3 +1,10 @@
+# Fork of FlexHeadFA to install on H100/H200/GH200 setups
+
+The current version of FlexHeadFA (as of June 18th of 2025) has two issues if you want to use the `hopper` (FA3) version.
+I described those [here](https://github.com/xiayuqing0622/flex_head_fa/issues/11).
+
+This fork makes the necessary modifications.
+
 # FlexHeadFA
 
 This repository is a fork of the [FlashAttention](https://github.com/Dao-AILab/flash-attention) main repo. It extends the official implementation to support FlashAttention with flexible head dimensions.
