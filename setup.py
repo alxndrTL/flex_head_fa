@@ -194,7 +194,7 @@ if not SKIP_CUDA_BUILD and not IS_ROCM:
     assert CUDA_HOME is not None
     assert bare_metal_version >= Version("11.8")
     cc_flag.append("-gencode")
-    cc_flag.append("arch=compute_90,code=sm_80")
+    cc_flag.append("arch=compute_80,code=sm_80")
     #cc_flag.append("-gencode")
     #cc_flag.append("arch=compute_90,code=sm_90")
 
